@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C95CA822CDEF2F006EB701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C95CA722CDEF2F006EB701 /* AppDelegate.swift */; };
+		48C95CAA22CDEF2F006EB701 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C95CA922CDEF2F006EB701 /* ViewController.swift */; };
+		48C95CAD22CDEF2F006EB701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C95CAB22CDEF2F006EB701 /* Main.storyboard */; };
+		48C95CAF22CDEF30006EB701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C95CAE22CDEF30006EB701 /* Assets.xcassets */; };
+		48C95CB222CDEF30006EB701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C95CB022CDEF30006EB701 /* LaunchScreen.storyboard */; };
+		48C95CBD22CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C95CBC22CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests.swift */; };
+		48C95CC822CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C95CC722CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests.swift */; };
+		48C95CD622CDF071006EB701 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C95CD522CDF071006EB701 /* iMFAD.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C95CB922CDEF30006EB701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C95C9C22CDEF2F006EB701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C95CA322CDEF2F006EB701;
+			remoteInfo = CFiFloatvideoSwiftSample;
+		};
+		48C95CC422CDEF30006EB701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C95C9C22CDEF2F006EB701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C95CA322CDEF2F006EB701;
+			remoteInfo = CFiFloatvideoSwiftSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48C95CA422CDEF2F006EB701 /* CFiFloatvideoSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiFloatvideoSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C95CA722CDEF2F006EB701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48C95CA922CDEF2F006EB701 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48C95CAC22CDEF2F006EB701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48C95CAE22CDEF30006EB701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48C95CB122CDEF30006EB701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48C95CB322CDEF30006EB701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C95CB822CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiFloatvideoSwiftSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C95CBC22CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFiFloatvideoSwiftSampleTests.swift; sourceTree = "<group>"; };
+		48C95CBE22CDEF30006EB701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C95CC322CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiFloatvideoSwiftSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C95CC722CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFiFloatvideoSwiftSampleUITests.swift; sourceTree = "<group>"; };
+		48C95CC922CDEF30006EB701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C95CD522CDF071006EB701 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		48C95CD722CDF4CC006EB701 /* CFiFloatvideoSwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CFiFloatvideoSwiftSample-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C95CA122CDEF2F006EB701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C95CD622CDF071006EB701 /* iMFAD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C95CB522CDEF30006EB701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C95CC022CDEF30006EB701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C95C9B22CDEF2F006EB701 = {
+			isa = PBXGroup;
+			children = (
+				48C95CD522CDF071006EB701 /* iMFAD.framework */,
+				48C95CA622CDEF2F006EB701 /* CFiFloatvideoSwiftSample */,
+				48C95CBB22CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests */,
+				48C95CC622CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests */,
+				48C95CA522CDEF2F006EB701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48C95CA522CDEF2F006EB701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C95CA422CDEF2F006EB701 /* CFiFloatvideoSwiftSample.app */,
+				48C95CB822CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests.xctest */,
+				48C95CC322CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C95CA622CDEF2F006EB701 /* CFiFloatvideoSwiftSample */ = {
+			isa = PBXGroup;
+			children = (
+				48C95CA722CDEF2F006EB701 /* AppDelegate.swift */,
+				48C95CA922CDEF2F006EB701 /* ViewController.swift */,
+				48C95CAB22CDEF2F006EB701 /* Main.storyboard */,
+				48C95CAE22CDEF30006EB701 /* Assets.xcassets */,
+				48C95CB022CDEF30006EB701 /* LaunchScreen.storyboard */,
+				48C95CB322CDEF30006EB701 /* Info.plist */,
+				48C95CD722CDF4CC006EB701 /* CFiFloatvideoSwiftSample-Bridging-Header.h */,
+			);
+			path = CFiFloatvideoSwiftSample;
+			sourceTree = "<group>";
+		};
+		48C95CBB22CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C95CBC22CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests.swift */,
+				48C95CBE22CDEF30006EB701 /* Info.plist */,
+			);
+			path = CFiFloatvideoSwiftSampleTests;
+			sourceTree = "<group>";
+		};
+		48C95CC622CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48C95CC722CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests.swift */,
+				48C95CC922CDEF30006EB701 /* Info.plist */,
+			);
+			path = CFiFloatvideoSwiftSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C95CA322CDEF2F006EB701 /* CFiFloatvideoSwiftSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C95CCC22CDEF30006EB701 /* Build configuration list for PBXNativeTarget "CFiFloatvideoSwiftSample" */;
+			buildPhases = (
+				48C95CA022CDEF2F006EB701 /* Sources */,
+				48C95CA122CDEF2F006EB701 /* Frameworks */,
+				48C95CA222CDEF2F006EB701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFiFloatvideoSwiftSample;
+			productName = CFiFloatvideoSwiftSample;
+			productReference = 48C95CA422CDEF2F006EB701 /* CFiFloatvideoSwiftSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C95CB722CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C95CCF22CDEF30006EB701 /* Build configuration list for PBXNativeTarget "CFiFloatvideoSwiftSampleTests" */;
+			buildPhases = (
+				48C95CB422CDEF30006EB701 /* Sources */,
+				48C95CB522CDEF30006EB701 /* Frameworks */,
+				48C95CB622CDEF30006EB701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C95CBA22CDEF30006EB701 /* PBXTargetDependency */,
+			);
+			name = CFiFloatvideoSwiftSampleTests;
+			productName = CFiFloatvideoSwiftSampleTests;
+			productReference = 48C95CB822CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48C95CC222CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C95CD222CDEF30006EB701 /* Build configuration list for PBXNativeTarget "CFiFloatvideoSwiftSampleUITests" */;
+			buildPhases = (
+				48C95CBF22CDEF30006EB701 /* Sources */,
+				48C95CC022CDEF30006EB701 /* Frameworks */,
+				48C95CC122CDEF30006EB701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C95CC522CDEF30006EB701 /* PBXTargetDependency */,
+			);
+			name = CFiFloatvideoSwiftSampleUITests;
+			productName = CFiFloatvideoSwiftSampleUITests;
+			productReference = 48C95CC322CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C95C9C22CDEF2F006EB701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "CF-NB";
+				TargetAttributes = {
+					48C95CA322CDEF2F006EB701 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					48C95CB722CDEF30006EB701 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 48C95CA322CDEF2F006EB701;
+					};
+					48C95CC222CDEF30006EB701 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 48C95CA322CDEF2F006EB701;
+					};
+				};
+			};
+			buildConfigurationList = 48C95C9F22CDEF2F006EB701 /* Build configuration list for PBXProject "CFiFloatvideoSwiftSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48C95C9B22CDEF2F006EB701;
+			productRefGroup = 48C95CA522CDEF2F006EB701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C95CA322CDEF2F006EB701 /* CFiFloatvideoSwiftSample */,
+				48C95CB722CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests */,
+				48C95CC222CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C95CA222CDEF2F006EB701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C95CB222CDEF30006EB701 /* LaunchScreen.storyboard in Resources */,
+				48C95CAF22CDEF30006EB701 /* Assets.xcassets in Resources */,
+				48C95CAD22CDEF2F006EB701 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C95CB622CDEF30006EB701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C95CC122CDEF30006EB701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C95CA022CDEF2F006EB701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C95CAA22CDEF2F006EB701 /* ViewController.swift in Sources */,
+				48C95CA822CDEF2F006EB701 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C95CB422CDEF30006EB701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C95CBD22CDEF30006EB701 /* CFiFloatvideoSwiftSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C95CBF22CDEF30006EB701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C95CC822CDEF30006EB701 /* CFiFloatvideoSwiftSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C95CBA22CDEF30006EB701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C95CA322CDEF2F006EB701 /* CFiFloatvideoSwiftSample */;
+			targetProxy = 48C95CB922CDEF30006EB701 /* PBXContainerItemProxy */;
+		};
+		48C95CC522CDEF30006EB701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C95CA322CDEF2F006EB701 /* CFiFloatvideoSwiftSample */;
+			targetProxy = 48C95CC422CDEF30006EB701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48C95CAB22CDEF2F006EB701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C95CAC22CDEF2F006EB701 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48C95CB022CDEF30006EB701 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C95CB122CDEF30006EB701 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C95CCA22CDEF30006EB701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48C95CCB22CDEF30006EB701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C95CCD22CDEF30006EB701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CFiFloatvideoSwiftSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiFloatvideoSwiftSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CFiFloatvideoSwiftSample/CFiFloatvideoSwiftSample-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C95CCE22CDEF30006EB701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CFiFloatvideoSwiftSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiFloatvideoSwiftSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CFiFloatvideoSwiftSample/CFiFloatvideoSwiftSample-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48C95CD022CDEF30006EB701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				INFOPLIST_FILE = CFiFloatvideoSwiftSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiFloatvideoSwiftSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFiFloatvideoSwiftSample.app/CFiFloatvideoSwiftSample";
+			};
+			name = Debug;
+		};
+		48C95CD122CDEF30006EB701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				INFOPLIST_FILE = CFiFloatvideoSwiftSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiFloatvideoSwiftSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFiFloatvideoSwiftSample.app/CFiFloatvideoSwiftSample";
+			};
+			name = Release;
+		};
+		48C95CD322CDEF30006EB701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				INFOPLIST_FILE = CFiFloatvideoSwiftSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiFloatvideoSwiftSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFiFloatvideoSwiftSample;
+			};
+			name = Debug;
+		};
+		48C95CD422CDEF30006EB701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				INFOPLIST_FILE = CFiFloatvideoSwiftSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiFloatvideoSwiftSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFiFloatvideoSwiftSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C95C9F22CDEF2F006EB701 /* Build configuration list for PBXProject "CFiFloatvideoSwiftSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C95CCA22CDEF30006EB701 /* Debug */,
+				48C95CCB22CDEF30006EB701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C95CCC22CDEF30006EB701 /* Build configuration list for PBXNativeTarget "CFiFloatvideoSwiftSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C95CCD22CDEF30006EB701 /* Debug */,
+				48C95CCE22CDEF30006EB701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C95CCF22CDEF30006EB701 /* Build configuration list for PBXNativeTarget "CFiFloatvideoSwiftSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C95CD022CDEF30006EB701 /* Debug */,
+				48C95CD122CDEF30006EB701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C95CD222CDEF30006EB701 /* Build configuration list for PBXNativeTarget "CFiFloatvideoSwiftSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C95CD322CDEF30006EB701 /* Debug */,
+				48C95CD422CDEF30006EB701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48C95C9C22CDEF2F006EB701 /* Project object */;
+}
